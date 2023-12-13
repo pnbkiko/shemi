@@ -1,0 +1,13 @@
+@startuml
+start
+:ввод n;
+:sum=0;
+:na=0;
+while(n>0)is(yes)
+:++na;
+:sum+=n%10;
+:n/10;
+endwhile (net)
+:вывод sum,na;
+stop
+@enduml

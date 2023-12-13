@@ -1,0 +1,22 @@
+@startuml
+start
+:ввод n;
+:k=-1;
+:max=0;
+while(i=1;i<=n;i++)is(da)
+:ввод m;
+if(k=-1)then(da)
+:max=m;
+:k=0;
+endif
+if(max<m)then(da)
+:max=m;
+endif
+endwhile(net)
+if(k!=n&&k!=0)then(da)
+:вывод max,YES;
+else(net)
+:вывод NO;
+endif
+stop
+@enduml

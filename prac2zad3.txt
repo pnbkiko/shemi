@@ -1,0 +1,29 @@
+@startuml
+start
+:ввод x;
+:ввод n;
+switch(n)
+case(1)
+:a=x;
+:c=a*Sqrt(2);
+:h=c/2;
+:s=(c*h)/2;
+case(2)
+:c=x;
+:a=c/Sqrt(2);
+:h=c/2;
+:s=(c*h)/2;
+case(3)
+:h=x;
+:c=2*h;
+:a=c/Sqrt(2);
+:s=c*h/2;
+case(4)
+:s=x;
+:h=Sqrt(s);
+:C=2*h;
+:a=c/sqrt(2);
+endswitch
+:**вывод** a,c,h,c;
+stop
+@enduml

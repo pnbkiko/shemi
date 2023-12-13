@@ -1,0 +1,11 @@
+@startuml
+start
+:ввод n;
+:ввод k;
+:sum=0;
+while(i=1;i<=n;i++)is(da)
+:sum+=Pow(i,k);
+endwhile(net)
+:вывод sum;
+stop
+@enduml

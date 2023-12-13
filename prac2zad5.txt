@@ -1,0 +1,14 @@
+@startuml
+start
+:ввод p;
+:k=0;
+:s=0;
+:day=10;
+while(s<200)is(da)
+:s+=day;
+:day+=day*p/100;
+:k++;
+endwhile(net)
+:вывод s,k;
+stop
+@enduml

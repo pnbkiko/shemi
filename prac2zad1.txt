@@ -1,0 +1,18 @@
+@startuml
+start
+:ввод k;
+:d="";
+switch(k)
+case(1)
+:d="плохо";
+case(2)
+:d="неудовлетворительно";
+case(3)
+:d="удовлетворительно";
+case(4)
+:d="хорошо";
+case(5)
+:d="отлично";
+endswitch
+stop
+@enduml

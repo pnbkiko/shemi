@@ -1,0 +1,16 @@
+@startuml
+start
+:ввод n;
+:a0=1;
+:b0=1;
+:sum=0;
+while(i=1;i<=n;i++)is(da)
+:a=a0;
+:b=b0;
+:a0=1.0/2*(Sqrt(b)+1.0/2*Sqrt(a));
+:b0=2*a*a+b;
+:sum=a*b;
+endwhile(net)
+:вывод sum;
+stop
+@enduml

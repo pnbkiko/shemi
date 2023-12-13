@@ -1,0 +1,24 @@
+@startuml
+start
+:ввод n;
+:k=-1;
+:max=0;
+while(i=1;i<=n;i++)is(da)
+:ввод m;
+if(m%10)then(da)
+     if(k==-1)then(da)
+     :max=m;
+     :k=0;
+     endif
+     if(max<m)
+     :max=m;
+     endif
+endif
+endwhile(net)
+if(k!=1)then(da)
+:вывод max;
+else(net)
+:вывод чисел оканчивающихся на 3 нет;
+endif
+stop
+@enduml

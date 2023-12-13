@@ -1,0 +1,15 @@
+@startuml
+start
+:**ввод** x;
+:y = 0;
+if (-PI/2 < x&&x<PI/2) then (да)
+:y = Sqrt((Sin(x)+Pow(Tan(x),2))/(3.5*Cos(x));
+else (нет)
+if(PI/2<x && x<PI)then(да)
+:y = Cos(x/3)/(Sin(x)+Pow(Tan(x),2);
+else(нет)
+endif
+endif
+:**вывод** y;
+stop
+@enduml

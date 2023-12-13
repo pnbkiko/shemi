@@ -1,0 +1,10 @@
+@startuml
+start
+:ввод n;
+:rez=0;
+while(i=1;i<=(2*n-1);i+=2)is(da)
+:rez+=i;
+:вывод rez;
+endwhile(net)
+stop
+@enduml

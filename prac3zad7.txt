@@ -1,0 +1,14 @@
+@startuml
+start
+:E =0.001;
+:i=1;
+:A=1/(1.0*(1+1));
+:sum=A;
+while(A>E)is(da)
+:i++;
+:A=1/(i*(i+1));
+:sum+=A;
+endwhile(net)
+:вывод sum;
+stop
+@enduml

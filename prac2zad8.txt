@@ -1,0 +1,14 @@
+@startuml
+start
+:ввод a;
+:ввод p;
+while(a!=0&&b!=0)is(da)
+if(a>b)then(da)
+:a=a%b;
+else(net)
+:b=b%a;
+endif
+endwhile (net)
+:вывод a+b;
+stop
+@enduml
